@@ -4,3 +4,11 @@
     border: 2px solid blue;
     border-radius: 10px;
 }
+.btn{
+    background-color: red;
+    color: azure;
+}
+.visited-country{
+    display: flex;
+    justify-content: space-between;
+}
