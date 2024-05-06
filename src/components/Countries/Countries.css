@@ -3,3 +3,9 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
+.countries-list{
+    display: flex;
+    justify-content: space-around;
+    border: 4px solid #EEE657;
+    background-color: #344146;
+}
