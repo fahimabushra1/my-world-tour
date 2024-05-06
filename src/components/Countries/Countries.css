@@ -5,7 +5,9 @@
 }
 .countries-list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border: 4px solid #EEE657;
-    background-color: #344146;
+    position: sticky;
+    top: 0;
+    background-color: aqua;
 }

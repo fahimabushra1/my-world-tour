@@ -1,13 +1,11 @@
 
-
 const NonVisitedCountries = ({country}) => {
   const {name}=country;
     return (
         <div>
-          <h3 style={{color:'#5659C9'}}>Countries that I want to visit</h3>
-          <ol>
+          <ul>
             <li>{name?.common}</li>
-          </ol>
+          </ul>
         </div>
     );
 };

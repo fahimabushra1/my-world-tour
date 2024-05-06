@@ -6,6 +6,7 @@ const Country = ({country, handleVisitedCountries, handleNonVisitedCountries}) =
     const handleVisited=()=>{
         setVisited(!visited)
     }
+    console.log(handleVisitedCountries)
     return (
         <div className="country">
            <div className='visited-country'>
@@ -22,8 +23,8 @@ const Country = ({country, handleVisitedCountries, handleNonVisitedCountries}) =
             <p>Area:{area}</p>
             <p>Status:{status}</p>
             <p>Code:{cca3}</p>
-            <button style={{backgroundColor:'#5659C9',margin:'10px'}} onClick={()=>{ handleNonVisitedCountries}}>I want to visit</button>
-            <button style={{backgroundColor:'#953163',margin:'10px'}} onClick={()=>{ handleVisitedCountries}}>I have visited</button>
+            <button style={{backgroundColor:'#5659C9',margin:'10px'}} onClick={()=> handleNonVisitedCountries(country)}>I want to visit</button>
+            <button style={{backgroundColor:'#953163',margin:'10px'}} onClick={()=> handleVisitedCountries(country)}>I have visited</button>
          </div>
         </div>
     );
