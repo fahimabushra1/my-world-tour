@@ -10,4 +10,6 @@
     position: sticky;
     top: 0;
     background-color: aqua;
+    max-height: 180px;
+    overflow-y: scroll;
 }
